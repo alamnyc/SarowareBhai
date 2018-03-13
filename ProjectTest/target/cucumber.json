@@ -1,0 +1,142 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 7,
+        "name": "To check email delivery system",
+        "description": "",
+        "id": "validation-email-delivery-function;to-check-email-delivery-system",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 13217786144,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User able to open a browser",
+            "match": {
+              "location": "StepDef.user_able_to_open_a_browser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1336552955,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User able to go  AgileTrailblazers  homepage",
+            "match": {
+              "location": "StepDef.user_able_to_go_AgileTrailblazers_homepage()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 454390357,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "User able to put valid username",
+            "match": {
+              "location": "StepDef.user_able_to_put_valid_username()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1461142444,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "User able to put valid email",
+            "match": {
+              "location": "StepDef.user_able_to_put_valid_email()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 196573117,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "User able to put valid Mobile phone number",
+            "match": {
+              "location": "StepDef.user_able_to_put_valid_Mobile_phone_number()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 182772565,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "User able to put valid Office phone number",
+            "match": {
+              "location": "StepDef.user_able_to_put_valid_Office_phone_number()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 189181919,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "User able to put email subject",
+            "match": {
+              "location": "StepDef.user_able_to_put_email_subject()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 341378588,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "User able to put email Message",
+            "match": {
+              "location": "StepDef.user_able_to_put_email_Message()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 426077950,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "User able to click Submit button",
+            "match": {
+              "location": "StepDef.user_able_to_click_Submit_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 270832012,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "Validate email deliveed successfully or not",
+            "match": {
+              "location": "StepDef.validate_email_deliveed_successfully_or_not()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Validation email delivery function",
+    "description": "\r\nDescription: As a user of the Mock AgileTrailblazers website I would \r\n\tlike to contact AgileTrailblazers so that an email will be delivered \r\n\tto the AgileTrailblazers management team.",
+    "id": "validation-email-delivery-function",
+    "keyword": "Feature",
+    "uri": "src/main/resources/AgileTrailblazersEmailValidation.feature"
+  }
+]
