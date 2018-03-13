@@ -7,7 +7,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.ie.InternetExplorerDriver;
 
-public class browserFactory {
+public class browserFactoryClass {
 	private static String URL="http://mock.agiletrailblazers.com/contact.html";
 	
 	public static WebDriver getBrowser(String browserName,WebDriver driver) throws InterruptedException{
@@ -35,6 +35,4 @@ public class browserFactory {
 	public static String getURL() {
 		return URL;
 	}
-	
-	
-}
+	}

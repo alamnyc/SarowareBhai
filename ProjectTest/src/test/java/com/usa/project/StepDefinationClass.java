@@ -11,20 +11,20 @@ import cucumber.api.java.en.Given;
 import cucumber.api.java.en.Then;
 import cucumber.api.java.en.When;
 
-public class StepDef {
+public class StepDefinationClass {
 
 	
 
 	WebDriver driver;
-	HomePageFactory pageFct;
+	HomePageFactoryClass pageFct;
 
 	@Given("^User able to open a browser$")
 	public void user_able_to_open_a_browser() throws Throwable {
-		driver = browserFactory.getBrowser("firefox", driver);
+		driver = browserFactoryClass.getBrowser("chrome", driver);
 
 		AjaxElementLocatorFactory factory = new AjaxElementLocatorFactory(driver, 200);
 		PageFactory.initElements(driver, factory);
-		pageFct = PageFactory.initElements(driver, HomePageFactory.class);
+		pageFct = PageFactory.initElements(driver, HomePageFactoryClass.class);
 
 		driver.manage().window().maximize();
 		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
@@ -34,7 +34,7 @@ public class StepDef {
 	@Given("^User able to go  AgileTrailblazers  homepage$")
 	public void user_able_to_go_AgileTrailblazers_homepage() throws Throwable {
 
-		driver.get(browserFactory.getURL());
+		driver.get(browserFactoryClass.getURL());
 
 	}
 
@@ -88,8 +88,5 @@ public class StepDef {
 			System.out.println("<<<<< Test Failed>>>>>>");
 			
 			driver.quit();
-		}
-	
-	}
-}
+		}}}
 

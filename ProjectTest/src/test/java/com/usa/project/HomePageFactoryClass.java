@@ -8,21 +8,18 @@ import org.openqa.selenium.support.How;
 import org.openqa.selenium.support.PageFactory;
 import org.openqa.selenium.support.pagefactory.AjaxElementLocatorFactory;
 
-public class HomePageFactory {
+public class HomePageFactoryClass {
 
 	
 	protected WebDriver driver;
 	private String homePageTitleText = "Home: UPS";
 	
-	public HomePageFactory(WebDriver driver) {
+	public HomePageFactoryClass(WebDriver driver) {
 		this.driver = driver;
 		// This initElements method will create all WebElements
 		AjaxElementLocatorFactory factory = new AjaxElementLocatorFactory(driver, 200);
 		PageFactory.initElements( driver,factory);
 	}
-	
-	
-
 	
 	@FindBy(how = How.XPATH, using = ".//*[@id='name']")
 	@CacheLookup

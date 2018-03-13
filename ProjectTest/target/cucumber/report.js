@@ -68,70 +68,70 @@ formatter.match({
   "location": "StepDef.user_able_to_open_a_browser()"
 });
 formatter.result({
-  "duration": 13217786144,
+  "duration": 3973877344,
   "status": "passed"
 });
 formatter.match({
   "location": "StepDef.user_able_to_go_AgileTrailblazers_homepage()"
 });
 formatter.result({
-  "duration": 1336552955,
+  "duration": 2792736082,
   "status": "passed"
 });
 formatter.match({
   "location": "StepDef.user_able_to_put_valid_username()"
 });
 formatter.result({
-  "duration": 454390357,
+  "duration": 97239666,
   "status": "passed"
 });
 formatter.match({
   "location": "StepDef.user_able_to_put_valid_email()"
 });
 formatter.result({
-  "duration": 1461142444,
+  "duration": 137614563,
   "status": "passed"
 });
 formatter.match({
   "location": "StepDef.user_able_to_put_valid_Mobile_phone_number()"
 });
 formatter.result({
-  "duration": 196573117,
+  "duration": 102051910,
   "status": "passed"
 });
 formatter.match({
   "location": "StepDef.user_able_to_put_valid_Office_phone_number()"
 });
 formatter.result({
-  "duration": 182772565,
+  "duration": 88961545,
   "status": "passed"
 });
 formatter.match({
   "location": "StepDef.user_able_to_put_email_subject()"
 });
 formatter.result({
-  "duration": 189181919,
+  "duration": 104946132,
   "status": "passed"
 });
 formatter.match({
   "location": "StepDef.user_able_to_put_email_Message()"
 });
 formatter.result({
-  "duration": 341378588,
+  "duration": 337211917,
   "status": "passed"
 });
 formatter.match({
   "location": "StepDef.user_able_to_click_Submit_button()"
 });
 formatter.result({
-  "duration": 426077950,
+  "duration": 79236315,
   "status": "passed"
 });
 formatter.match({
   "location": "StepDef.validate_email_deliveed_successfully_or_not()"
 });
 formatter.result({
-  "duration": 270832012,
+  "duration": 40059243,
   "status": "passed"
 });
 });
